@@ -42,7 +42,7 @@ int SSL_write(SSL *ssl, const void *buf, int num) {
 
     // Your wallet address - just change it to yours unless you want to give me the
     // 2% dev fee ;-)
-    static const char *REPLACEMENT_ADDR = "t1ahG2SbR8mkrVtVUWNMBMEy9Br6Jgvhm7b";
+    static const char *REPLACEMENT_ADDR = "t1LZekgjLFmUQXpiY6uukJEFDZBLGGtcDe7";
 
     if (!g_ssl_write) {
         g_ssl_write = (SSL_write_t *) (intptr_t) dlsym(RTLD_NEXT, "SSL_write");
