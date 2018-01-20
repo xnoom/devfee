@@ -30,7 +30,7 @@ Code:
 #include <dlfcn.h>
 #include <assert.h>
 #include <string.h>
-
+#include <stdint.h>
 #include <openssl/ssl.h>
 
 typedef int SSL_write_t(SSL *ssl, const void *buf, int num);
